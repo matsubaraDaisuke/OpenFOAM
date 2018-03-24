@@ -1,3 +1,3 @@
 rhoCentralFoam.C
 
-EXE = $(FOAM_APPBIN)/rhoCentralFoam
+EXE = $(FOAM_APPBIN)/rhoCentralFoam2
