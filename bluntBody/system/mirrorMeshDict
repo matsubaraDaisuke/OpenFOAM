@@ -1,0 +1,20 @@
+FoamFile
+{
+version 4.0;
+format ascii;
+class dictionary;
+object mirrorMeshDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+planeType		pointAndNormal;
+
+pointAndNormalDict
+{
+	basePoint		(0 0 0);
+	normalVector	(0 1 0);
+}	
+
+planeTolerance 	1e-6;
+
+
